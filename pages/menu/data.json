@@ -1,0 +1,366 @@
+{
+	"data":[
+			{
+				"classify" : "人气Top",
+				"state": "",
+				"shopData": [
+					{
+						"id": "shop01",
+						"title": "榛果拿铁",
+						"en": "Hazelnut Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": ["大"],
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 1
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","单糖","热"],
+						"price": "27"
+					},
+					{
+						"id": "shop02",
+						"title": "圣诞姜饼人拿铁",
+						"en": "Christmas Gingerbread Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 1
+							},
+							{
+								"name": "奶油",
+								"type": ["默认奶油","无奶油"],
+								"selected": 0
+							}
+						],
+						"default": ["大","默认奶油","热"],
+						"price": "24"
+					}
+				]
+			},
+			{
+				"classify" : "大师咖啡",
+				"state": "WBC（世界咖啡师大赛）冠军团队拼配",
+				"shopData": [
+					{
+						"id": "shop03",
+						"title": "拿铁",
+						"en": "Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["无糖","半糖","单糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "24"
+					},
+					{
+						"id": "shop04",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			},
+			{
+				"classify" : "零度拿铁",
+				"state": "不含咖啡的拿铁",
+				"shopData": [
+					{
+						"id": "shop05",
+						"title": "拿铁",
+						"en": "Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["无糖","半糖","单糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "24"
+					},
+					{
+						"id": "shop06",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			},
+			{
+				"classify" : "瑞纳冰",
+				"state": "",
+				"shopData": [
+					{
+						"id": "shop07",
+						"title": "拿铁",
+						"en": "Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["无糖","半糖","单糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "24"
+					},
+					{
+						"id": "shop08",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			},
+			{
+				"classify" : "经典饮品",
+				"state": "",
+				"shopData": [
+					{
+						"id": "shop09",
+						"title": "拿铁",
+						"en": "Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["无糖","半糖","单糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "24"
+					},
+					{
+						"id": "shop10",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			},
+			{
+				"classify" : "健康轻食",
+				"state": "",
+				"shopData": [
+					{
+						"id": "shop11",
+						"title": "拿铁",
+						"en": "Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["无糖","半糖","单糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "24"
+					},
+					{
+						"id": "shop12",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 0
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			},
+			{
+				"classify" : "鲜榨果蔬汁",
+				"state": "",
+				"shopData": [
+					{
+						"id": "shop13",
+						"title": "NFC鲜榨橙汁",
+						"en": "NFC Fresh Orange Juice",
+						"kind": [],
+						"default": [],
+						"price": "24"
+					},
+					{
+						"id": "shop14",
+						"title": "香草拿铁",
+						"en": "Vanilla Latte",
+						"kind": [
+							{
+								"name": "规格",
+								"type": "大",
+								"selected": 0
+							},
+							{
+								"name": "温度",
+								"type": ["冰","热"],
+								"selected": 1
+							},
+							{
+								"name": "糖度",
+								"type": ["单糖","半糖"],
+								"selected": 0
+							}
+						],
+						"default": ["大","无糖","热"],
+						"price": "27"
+					}
+				]
+			}
+	]
+}

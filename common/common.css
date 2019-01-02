@@ -1,0 +1,74 @@
+body{background-color: #f4f5f6;}
+/*清除浮动*/
+.clearfix:after,.clearfix:before{content:""; display:block; clear:both;} /*兼容ie9+*/
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+
+.pr{position: relative;}
+.pa{position: absolute;}
+.bor-none{border: none;}
+
+/* 按钮 */
+.button{width: 690upx;height: 80upx;line-height: 80upx;margin-top: 28upx;font-size: 28upx;background-color: #89afd6;color: #fff;}
+.button-hover{background-color: #5c8abf;}
+.button:after{border: none;}
+.button[disabled]:not([type]){background-color: #b8cfe6;color: #fff;}
+
+.state{color: #999;text-align: center;margin-top: 20upx;}
+/* 引入阿里巴巴矢量图icon */
+@font-face {
+	font-family: iconfont;
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://at.alicdn.com/t/font_970138_1lwoiloo2y6.ttf') format('truetype');
+}
+		
+.iconfont {
+  font-family: "iconfont";
+  font-size: 36upx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-liwu:before { content: "\e657"; }
+
+.icon-kafei:before { content: "\e6aa"; }
+
+.icon-qunfengyijianfankui:before { content: "\e7c4"; }
+
+.icon-yijianfankui:before { content: "\e637"; }
+
+.icon-qiye:before { content: "\e724"; }
+
+.icon-hongbao1:before { content: "\e610"; }
+
+.icon-liwu1:before { content: "\e65b"; }
+
+.icon-youhuiquan:before { content: "\e69b"; }
+
+.icon-yaoqing:before { content: "\e683"; }
+
+.icon-xiaoxi:before { content: "\e682"; }
+
+.icon-fapiaosel:before { content: "\e623"; }
+
+.icon-zhanghuziliao:before { content: "\e6a8"; }
+
+.icon-daohanglan-05:before { content: "\e639"; }
+
+.icon-zanwuchiyouzhongdingdan:before { content: "\e766"; }
+
+.icon-icon-test:before { content: "\e638"; }
+
+.icon-dingdan:before { content: "\e608"; }
+
+.icon-shouye:before { content: "\e6d9"; }
+
+.icon-mn_yonghuziliao_fill:before { content: "\e600"; }
+
+.icon-coffee:before { content: "\e622"; }
+
+.icon-youhuiquan1:before { content: "\e61f"; }
+
+.icon-qianbao:before { content: "\e60f"; }

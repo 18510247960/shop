@@ -1,0 +1,230 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"app-plus" : {
+					"titleNView" : false
+				}
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText" : "购物车"
+			}
+		},
+		{
+			"path": "pages/menu/index",
+			"style": {
+				"navigationBarTitleText" : "选择咖啡与小食"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"app-plus" : {
+					"titleNView" : false
+				}
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText" : "订单列表"
+			}
+		},
+		{
+			"path": "pages/mine/personal/list",
+			"style": {
+				"navigationBarTitleText" : "个人资料"
+			}
+		},
+		{
+			"path": "pages/mine/personal/change-name",
+			"style": {
+				"navigationBarTitleText" : "用户名"
+			}
+		},
+		{
+			"path": "pages/mine/address/list",
+			"style": {
+				"navigationBarTitleText" : "我的地址"
+			}
+		},
+		{
+			"path": "pages/mine/address/add",
+			"style": {
+				"navigationBarTitleText" : "添加地址"
+			}
+		},
+		{
+			"path": "pages/mine/address/edit",
+			"style": {
+				"navigationBarTitleText" : "修改地址",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue401",
+							"fontSrc": "/static/uni.ttf"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/wallet/index",
+			"style": {
+				"navigationBarTitleText" : "咖啡钱包"
+			}
+		},
+		{
+			"path": "pages/mine/coupon/index",
+			"style": {
+				"navigationBarTitleText" : "可用咖啡券"
+			}
+		},
+		{
+			"path": "pages/mine/cash/index",
+			"style": {
+				"navigationBarTitleText" : "兑换优惠"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/index",
+			"style": {
+				"navigationBarTitleText" : "发票管理"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/open",
+			"style" : {
+				"navigationBarTitleText" : "开具发票",
+				"app-plus":{
+					"titleNView": {
+						"buttons": [{
+							"text": "说明",
+							"fontSize": "28upx"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/invoice/explain",
+			"style": {
+				"navigationBarTitleText" : "发票说明"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/open-info",
+			"style": {
+				"navigationBarTitleText" : "开票信息"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/record",
+			"style": {
+				"navigationBarTitleText" : "发票记录"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/title",
+			"style": {
+				"navigationBarTitleText" : "发票抬头"
+			}
+		},
+		{
+			"path": "pages/mine/invoice/title-add",
+			"style": {
+				"navigationBarTitleText" : "添加发票抬头"
+			}
+		},
+		{
+			"path": "pages/mine/feedback/list",
+			"style": {
+				"navigationBarTitleText" : "帮助反馈"
+			}
+		},
+		{
+			"path": "pages/mine/feedback/feedback",
+			"style": {
+				"navigationBarTitleText" : "问题反馈"
+			}
+		},
+		{
+			"path": "pages/mine/feedback/about",
+			"style": {
+				"navigationBarTitleText" : "关于我们"
+			}
+		},
+		{
+			"path": "pages/mine/feedback/details",
+			"style": {
+				"navigationBarTitleText" : "帮助反馈"
+			}
+		},
+		{
+			"path": "pages/mine/message",
+			"style": {
+				"navigationBarTitleText" : "消息中心"
+			}
+		},
+		{
+			"path": "pages/home/presented",
+			"style": {
+				"navigationBarTitleText" : "送Ta咖啡"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar" : {
+		"color" : "#8a8396",
+		"selectedColor" : "#2a4c7e",
+		"borderStyle" : "black",
+		"backgroundColor" : "#fff",
+		"list" : [
+			{
+				"pagePath" : "pages/home/index",
+				"iconPath" : "static/home.png",
+				"selectedIconPath" : "static/home-active.png",
+				"text" : "首页"
+			},
+			{
+				"pagePath" : "pages/menu/index",
+				"iconPath" : "static/menu.png",
+				"selectedIconPath" : "static/menu-active.png",
+				"text" : "菜单"
+			},
+			{
+				"pagePath" : "pages/order/index",
+				"iconPath" : "static/order.png",
+				"selectedIconPath" : "static/order-active.png",
+				"text" : "订单"
+			},
+			{
+				"pagePath" : "pages/cart/index",
+				"iconPath" : "static/cart.png",
+				"selectedIconPath" : "static/cart-active.png",
+				"text" : "购物车"
+			},
+			{
+				"pagePath" : "pages/mine/index",
+				"iconPath" : "static/mine.png",
+				"selectedIconPath" : "static/mine-active.png",
+				"text" : "我的"
+			}
+		]
+	}
+}
